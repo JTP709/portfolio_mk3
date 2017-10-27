@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jon Prell</title>
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+</head>
+<body>
+	<!-- NavBar -->
+	<nav>
+		<a href="#" onclick="nav('#about')">About Me</a>
+		<a href="#" onclick="nav('#projects')">Projects</a>
+		<a href="#" onclick="nav('#contact')">Contact Me</a>
+		<a href="#">Blog</a>
+	</nav>
+	<!-- Corner Logo -->
+	<img id="cornerLogo" src="img/logo.jpg" onclick="nav('#logo')">
+	<!-- Logo Page -->
+	<div id="logo">
+		<img src="img/logo.jpg">
+		<span id="logoHeader">Jon Prell</span>
+	</div>
+	<!-- About Me Page -->
+	<div id="about" class="page">
+		<p>Hello, my name is Jon Prell and I'm a Full-Stack Web Developer.</p>
+		<br>
+		<p>From the landing page to the database, I have the skills to bring any project to life.</p>
+		<br>
+		<table>
+			<tr>
+				<th>Front End</th>
+				<th>Back End</th>
+				<th>Database</th>
+			</tr>
+			<tr>
+				<td>HTML 5</td>
+				<td>Python</td>
+				<td>PostgreSQL</td>
+			</tr>
+			<tr>
+				<td>CSS 3</td>
+				<td>Flask</td>
+				<td>SQLite</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>SqlAlchemy</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>jQuery</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>React.js</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Knockout.js</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Bootstrap</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<!-- Projects Page -->
+	<div id="projects" class="page">
+		<div class="project">
+			<img src="http://via.placeholder.com/250x150">
+			<div class="projectInfo">
+				<p><b>Simple Safety Manager</b></p>
+				<p>A safety compliance program built using a Python backend with Flask framework, PostgreSQL database, and Bootstrap front-end.</p>
+			</div>
+			<div class="projectLinks">
+				<a href="#">Demo</a>
+			</div>
+			<div class="projectLinks">
+				<a href="#">Github</a>
+			</div>
+		</div>
+		<div class="project">
+			<img src="http://via.placeholder.com/250x150">
+			<div class="projectInfo">
+				<p><b>Emergency Event Manager</b></p>
+				<p>An event management app built using the Knockout.js framework and Google Maps JavaScript API.</p>
+			</div>
+			<div class="projectLinks">
+				<a href="#">Demo</a>
+			</div>
+			<div class="projectLinks">
+				<a href="#">Github</a>
+			</div>
+		</div>
+		<div class="project">
+			<img src="http://via.placeholder.com/250x150">
+			<div class="projectInfo">
+				<p><b>Final Project</b></p>
+				<p>A to be determined program built using a Python backend (probably) and JavaScript (frontend).</p>
+			</div>
+			<div class="projectLinks">
+				<a href="#">Demo</a>
+			</div>
+			<div class="projectLinks">
+				<a href="#">Github</a>
+			</div>
+		</div>
+	</div>
+	<!-- Contact Page -->
+	<div id="contact" class="page">
+		<h2>Contact Me</h2>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<span id="footer">Made by Me &copy; 2017</span>
+	</footer>
+	<!-- Canvas -->
+	<canvas class="background"></canvas>
+	<!-- JavaScript -->
+	<script src="js/lib/jquery-3.2.1.min.js"></script>
+  	<script src="js/lib/particles.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

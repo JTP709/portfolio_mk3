@@ -1,0 +1,797 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hei",
+				"height"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"ob",
+				"observable"
+			],
+			[
+				"button",
+				"button_div"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"event",
+				"event_button"
+			],
+			[
+				"butt",
+				"button_div"
+			],
+			[
+				"backgroudn",
+				"background-color"
+			],
+			[
+				"filter",
+				"filterTypeFire"
+			],
+			[
+				"observa",
+				"observableArray"
+			],
+			[
+				"img",
+				"imgAttribution"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"date",
+				"date_time"
+			],
+			[
+				"user",
+				"user_profile"
+			],
+			[
+				"proper",
+				"property_damage"
+			],
+			[
+				"injury",
+				"injury_rate"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"answer",
+				"answer_3"
+			],
+			[
+				"ans",
+				"answer_2"
+			],
+			[
+				"quest",
+				"question_3"
+			],
+			[
+				"insert",
+				"insertAction"
+			],
+			[
+				"audit",
+				"audit_health"
+			],
+			[
+				"audit_qu",
+				"audit_query_t"
+			],
+			[
+				"declara",
+				"declarative_base"
+			],
+			[
+				"update",
+				"updatePuppy"
+			],
+			[
+				"restau",
+				"restaurant_1_menu"
+			],
+			[
+				"foursquare",
+				"foursquare_client_secret"
+			],
+			[
+				"resta",
+				"restuarant"
+			],
+			[
+				"access",
+				"access_token"
+			],
+			[
+				"acces",
+				"access_token"
+			],
+			[
+				"long",
+				"login_session"
+			],
+			[
+				"login",
+				"login_session"
+			],
+			[
+				"userinfo",
+				"userinfo_url"
+			],
+			[
+				"acc",
+				"access_token"
+			],
+			[
+				"top_3_",
+				"top_3_articles"
+			],
+			[
+				"top",
+				"top_3_authors"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"container",
+				"container-fluid"
+			],
+			[
+				"about_m",
+				"about_me_25"
+			],
+			[
+				"about",
+				"about_me_25"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"content",
+				"align-content"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wel",
+				"well-sm"
+			],
+			[
+				"heigh",
+				"min-height"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"asi",
+				"aside_table"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"cont",
+				"align-content"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"Base",
+				"Base"
+			],
+			[
+				"Audit",
+				"Audit_Behavior"
+			],
+			[
+				"__",
+				"__tablename__"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"menu",
+				"menu_id"
+			],
+			[
+				"rest",
+				"restaurant_id"
+			],
+			[
+				"restaur",
+				"restaurant_id"
+			],
+			[
+				"restuar",
+				"restaurant_id"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"restar",
+				"restaurant"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bootstra",
+				"bootstrap-prestructure_files"
+			],
+			[
+				"border",
+				"border-box"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "group learning processings\n\nbash on windows\n\narnoff center lottery",
+			"file": "/C/Users/JTP70/OneDrive/Documents/generic notes",
+			"file_size": 26,
+			"file_write_time": 131530706581185544,
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Windows",
+				"name": "group learning processings"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/portfolio_mk3/layout.txt",
+		"/C/Users/JTP70/AppData/Local/Temp/Temp1_particles.js-master.zip/particles.js-master/README.md",
+		"/C/Users/JTP70/AppData/Local/Temp/Temp1_particles.js-master.zip/particles.js-master/LICENSE.md",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/log_analysis_original.py",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/udacity_capstone/js/app.js",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/udacity_capstone/css/style.css",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/udacity_capstone/js/model.js",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/udacity_capstone/js/viewmodel.js",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/udacity_capstone/index.html",
+		"/C/Users/JTP70/VM/vagrant/SMS/sms.py",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/log_analysis.py",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/maps_api_fun/index.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/simple_safety.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/functions.py",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/apprenticeship-challenge-master/app/main.css",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/apprenticeship-challenge-master/build/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/ud989-cat-clicker-ko-starter-master/js/app.js",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/ud989-cat-clicker-ko-starter-master/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/cat-clicker/main.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/cat-clicker/scalable_script.js",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/cat-clicker/script.js",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/dashboard.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/audits.html",
+		"/C/Users/JTP70/VM/vagrant/Vagrantfile",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/connect.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/readme.md",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/database_setup.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/database_populator.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/actions_close.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incidents_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/database.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/.gitignore",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/portfolio_mk2/index.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/readme.txt",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/login.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/resources.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/static/style.css",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/actions_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/actions_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/actions_new.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/audits_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/audits_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/audits_new.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incidents_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incidents_new.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incidents.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/actions.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/profile.html",
+		"/C/Users/JTP70/OneDrive/Documents/bootstrap-3.3.7/bootstrap-3.3.7/docs/examples/signin/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/bootstrap-3.3.7/bootstrap-3.3.7/docs/examples/dashboard/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/bootstrap-3.3.7/bootstrap-3.3.7/docs/examples/signin/signin.css",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/incidents_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/audits_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/actions_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/actions_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/audits_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/incidents_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/actions_new.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/audits_new.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/incidents_new.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/audits.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/bootstrap-3.3.7/docs/examples/signin/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/bootstrap-3.3.7/docs/examples/signin/signin.css",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/login.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/incidents.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/bootstrap_temp.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/old/dashboard.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/bootstrap-3.3.7/docs/examples/dashboard/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/bootstrap-3.3.7/docs/examples/dashboard/dashboard.css",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/nuclear_option.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incidents_reports.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/query_test.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/config.py",
+		"/D/Movies/The EXPANSE - Complete Season 2 S02 (2017) - 720p AMZN WebRip x264/The EXPANSE - S02 E01 - Safe (720p AMZN WebRip).srt",
+		"/C/Users/JTP70/VM/vagrant/restaurant_catalog/finalproject.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incident_edit.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incident_delete.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/templates/incident_id.html",
+		"/C/Users/JTP70/VM/vagrant/restaurant_catalog/templates/newmenuitem.html",
+		"/C/Users/JTP70/VM/vagrant/restaurant_catalog/database_setup.py",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/database.ini",
+		"/C/Users/JTP70/VM/vagrant/SMS/templates/dashboard.html",
+		"/C/Users/JTP70/VM/vagrant/SMSv2/SMS/config.pyc",
+		"/C/Users/JTP70/VM/vagrant/restaurant_catalog/lotsofmenus.py",
+		"/C/Users/JTP70/VM/vagrant/SMS/database_setup.py",
+		"/C/Users/JTP70/VM/vagrant/API/secure/models.py",
+		"/C/Users/JTP70/VM/vagrant/API/secure/views.py",
+		"/C/Users/JTP70/VM/vagrant/API/secure/bagels_test.py",
+		"/C/Users/JTP70/VM/vagrant/API/secure/modals.py",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/SMS/dashboard/index.html",
+		"/C/Users/JTP70/OneDrive/Documents/Programming/HTML-CSS/SMS/tinker.html",
+		"/C/Users/JTP70/VM/vagrant/API/final/views.py",
+		"/C/Users/JTP70/VM/vagrant/API/final/tester.py",
+		"/C/Users/JTP70/VM/vagrant/API/final/models.py",
+		"/C/Users/JTP70/VM/vagrant/API/final/findARestaurant.py",
+		"/C/Users/JTP70/VM/vagrant/API/geocode.py",
+		"/C/Users/JTP70/VM/vagrant/API/findARestaurant.py",
+		"/C/Users/JTP70/VM/vagrant/API/enpoints_test.py",
+		"/C/Users/JTP70/VM/vagrant/API/models.py",
+		"/C/Users/JTP70/VM/vagrant/API/endpoints.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/udacity_project.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/templates/login.html",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/templates/header.html",
+		"/C/Users/JTP70/VM/vagrant/API/api_request.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/restaurant_project.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/lotsofmenus2.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/database_setup.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/database_setup.pyc",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/restaurantmenu.db",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/.gitignore",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/finalproject.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/menuproject.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/client_secrets.json",
+		"/C/Users/JTP70/Downloads/client_secret_788680619386-gnupbr9ht4uej2nq9vupc3vv2eql7u6u.apps.googleusercontent.com (1).json",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/README.txt",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.gitignore",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/log_analysis_old.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/templates/menu.html",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/project.py",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/templates/old/menu.html",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/templates/restaurants.html",
+		"/C/Users/JTP70/VM/vagrant/virtualMenu/restaurantwebserver.py",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.git/refs/heads/master",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.git/info/exclude",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.git/index",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.git/HEAD",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.git/description",
+		"/C/Users/JTP70/VM/vagrant/log_analysis/.git/config"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sel",
+			"app.markerType",
+			"append",
+			"animate",
+			"hover",
+			"pointer",
+			"button",
+			"console.log",
+			"setanima",
+			"setAnimation",
+			"header",
+			"page-title",
+			"navbar",
+			"img",
+			"weather",
+			"icon",
+			"weather",
+			");\n",
+			"getZoom",
+			"removelist",
+			"zoomlist",
+			"removelis",
+			"highlightMarker",
+			";\n",
+			"button",
+			"submit",
+			"span",
+			"required",
+			"#new",
+			"button",
+			"filter",
+			"<br>",
+			"nav",
+			"emergency events",
+			"populateinfo",
+			"infowindow",
+			"inner",
+			"id",
+			"*id*",
+			"<id>",
+			"*id*",
+			"'''",
+			"date_ti",
+			"redirect",
+			"authorized ot",
+			"render",
+			"signinbu",
+			"g-sign",
+			"incidents/reports",
+			"search",
+			">\n",
+			"search",
+			"sorry",
+			"flash",
+			"result",
+			"size='2000'",
+			"session['",
+			"ser_pro",
+			"incidnets/new",
+			"d",
+			"incidents/new/",
+			"incidents/new",
+			"incident/new",
+			"login",
+			"[i]",
+			"</p>",
+			"<p>",
+			"/incidents/",
+			"</p>",
+			"<p>",
+			"<h3>",
+			"size='2000'",
+			"<p>",
+			"</p>",
+			"/p",
+			"p",
+			"/p",
+			"<p>",
+			"actions",
+			"{%",
+			"stylesheet",
+			"getinjuryrates",
+			"round",
+			", 2",
+			",2",
+			"have",
+			"incidents",
+			"HAZWASTE",
+			"question_1",
+			"_delete",
+			"incidents_id",
+			"incident_",
+			"incident_id",
+			"incident_edit",
+			"incident_",
+			"newincid",
+			"newincide",
+			"incident_id",
+			"editinci",
+			"reports",
+			"audit_health",
+			"injuries",
+			"view",
+			"id\"",
+			"asc",
+			"delete a",
+			"client_secret",
+			"post",
+			"init",
+			"html",
+			"contact",
+			"@media",
+			"about_me_20",
+			"about_me_23",
+			"row",
+			"1200",
+			"#contact",
+			"id=\"about",
+			"portfolio",
+			"skills",
+			"25",
+			"28",
+			"bg-tertiary",
+			"header {",
+			"#contact",
+			"header {",
+			"#about",
+			"#s"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-id-",
+			"id",
+			"*id*",
+			"<id>",
+			"```",
+			"authorized to",
+			"class=\"form-control\"",
+			"[0]",
+			"</h4>",
+			"<h4>",
+			"</h4>",
+			"<h4>",
+			"<p>",
+			"<h4>",
+			"class=\"form-control\"",
+			"<h3>",
+			"</h3>",
+			"/h3",
+			"h3",
+			"/h3",
+			"<h3>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/Users/JTP70/OneDrive/Documents/generic notes",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"auto_name": "group learning processings",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 52.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.786,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mk3.sublime-project",
+	"replace":
+	{
+		"height": 96.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 300.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
