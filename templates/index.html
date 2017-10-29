@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jon Prell</title>
+	<meta charset="utf-8">
+	<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+</head>
+<body>
+	<!-- NavBar -->
+	<nav>
+		<a href="#" onclick="nav('#about')">About Me</a>
+		<a href="#" onclick="nav('#projects')">Projects</a>
+		<a href="#" onclick="nav('#contact')">Contact Me</a>
+		<a href="#">Photography</a>
+		<a href="#">Blog</a>
+	</nav>
+	<!-- Corner Logo -->
+	<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.jpg') }}" onclick="nav('#logo')">
+	<!-- Logo Page -->
+	<div id="logo">
+		<img src="{{ url_for('static', filename='img/logo.jpg') }}">
+		<span id="logoHeader">Jon Prell</span>
+	</div>
+	<!-- About Me Page -->
+	<div id="about" class="page">
+		<h2>About Me</h2>
+		<div id="aboutSection">
+			<div id="aboutDetails">
+				<p>Hello, my name is Jon Prell and I'm a Full-Stack Web Developer.</p>
+				<br>
+				<p>From the landing page to the database, I have the skills to bring any project to life.</p>
+			</div>
+			<img id="profilePic" src="{{ url_for('static', filename='img/profile.jpg') }}">
+		</div>
+		<table>
+			<tr>
+				<th>Front End</th>
+				<th>Back End</th>
+				<th>More</th>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+				<td>Python</td>
+				<td>Photoshop</td>
+			</tr>
+			<tr>
+				<td>jQuery</td>
+				<td>Flask</td>
+				<td>AWS</td>
+			</tr>
+			<tr>
+				<td>React</td>
+				<td>PostgreSQL</td>
+				<td>Linux</td>
+			</tr>
+			<tr>
+				<td>Knockout.js</td>
+				<td>SqlAlchemy</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Bootstrap</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<div id="ext_link_container">
+			<div class="ext_link">
+				
+			</div>
+			<div class="ext_link">
+				
+			</div>
+			<div class="ext_link">
+				
+			</div>
+		</div>
+	</div>
+	<!-- Projects Page -->
+	<div id="projects" class="page">
+		<h2>Projects</h2>
+		<div class="flex-container">
+
+			{% for i in projects %}
+				<div class="project">
+					<img onclick="modalOpen({{i.id}})" id="project_{{i.id}}" src="{{ i.image }}">
+				</div>
+			{% endfor %}
+
+		</div>
+	</div>
+	{% for i in projects %}
+		<!-- The Modal -->
+		<div id="modal_{{i.id}}" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span onclick="modalClose()" class="close">&times;</span>
+				<img src="{{ i.image }}">
+				<div class="projectInfo">
+					<p><b>{{ i.title }}</b></p>
+					<p>{{ i.description }}</p>
+				</div>
+				<div class="projectLinks">
+					<a href="{{ i.demo }}">Demo</a>
+				</div>
+				<div class="projectLinks">
+					<a href="{{ i.github }}">Github</a>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+	<!-- Contact Page -->
+	<div id="contact" class="page">
+		<h2>Contact Me</h2>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<span id="footer">Made by Me &copy; 2017</span>
+	</footer>
+	<!-- Canvas -->
+	<canvas class="background"></canvas>
+	<!-- JavaScript -->
+	<script src="{{ url_for('static', filename='js/lib/jquery-3.2.1.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/lib/particles.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

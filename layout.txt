@@ -1,0 +1,94 @@
+Layout:
+
+NavBar
+
+Header Image
+
+About Me Section
+
+	My name is <b>Jon Prell</b> and I am a full-stack web developer. From Concept to Deployment, I have all of the skills needed to bring your project to life.
+
+	Front-End Skills:
+        <li>HTML 5</li>
+        <li>CSS 3</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>React</li>
+    Back End Skills:
+        <li>Python</li>
+        <li>Flask</li>
+        <li>Django</li>
+        <li>PostgreSQL</li>
+        <li>Communicating with Humans</li>
+    Link to Blog
+    Link to Resume
+    	<p>My work history is as diverse as my development skills.</p>
+                        <div>
+                            <hr class="primary">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 text-left cv-pad">
+                                <h3>amazon.com</h3>
+                            </div>
+                            <div class="col-sm-4 text-center cv-pad">
+                                <h3>Sept. 15 - Present</h3>
+                            </div>
+                            <div class="col-sm-4 text-right cv-pad">
+                                <h3>Hebron, KY</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <p>Occupaional Health and Safety Specialist</p>
+                            <p>- Provided support for Operations to acheive their safety benchmarks</p>
+                            <p>- Coordinated with external contractors and vendors to acheive and maintain regulatory compliance.</p>
+                            <p>- Participated in incident investigations to ensure the hazard was identified and measures were taken to prevent reoccurance.</p>
+                            <hr class="primary">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 text-left cv-pad">
+                                <h3>Barnes Aerospace</h3>
+                            </div>
+                            <div class="col-sm-4 text-center cv-pad">
+                                <h3>Sept. 13 - May. 14</h3>
+                            </div>
+                            <div class="col-sm-4 text-right cv-pad">
+                                <h3>West Chester, OH</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <p>Occupaional Health and Safety Co-Op</p>
+                            <p>- Provided support for Operations to acheive their safety benchmarks</p>
+                            <p>- Coordinated with external contractors and vendors to acheive and maintain regulatory compliance.</p>
+                            <p>- Participated in incident investigations to ensure the hazard was identified and measures were taken to prevent reoccurance.</p>
+                            <hr class="primary">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 text-left cv-pad">
+                                <h3>Marathon Petroleum Co.</h3>
+                            </div>
+                            <div class="col-sm-4 text-center cv-pad">
+                                <h3>Sept. 14 - Aug. 15</h3>
+                            </div>
+                            <div class="col-sm-4 text-right cv-pad">
+                                <h3>Cincinnati, OH</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <p>Occupaional Health and Safety Co-Op</p>
+                            <p>- Provided support for Operations to acheive their safety benchmarks</p>
+                            <p>- Coordinated with external contractors and vendors to acheive and maintain regulatory compliance.</p>
+                            <p>- Participated in incident investigations to ensure the hazard was identified and measures were taken to prevent reoccurance.</p>
+
+Services Section
+	h3>FRONT END APPLICITY</h3>
+    	<p class="text-muted text-a-font text-left">You're probably thinking "This guy doesn't know how to spell!" or "Is 'Applicity' really a word?" No need to reach for your dictionary, it isn't a real word. It's simply my approach to front-end design. I believe that applicable simplicity should drive design. End-users don't want to spend time trying to figure out how to use an application when they need to be putting that app to use!</p>
+	<h3>BACK END EFFECIENCY</h3>
+		<p class="text-muted text-left text-a-font">A lot goes on behind the scenes to keep your app moving. Anyting that takes longer than 3 seconds to load is unacceptable. I implement the latest programming paradigms to grease the gears ensure your server is high speed, low drag.</p>
+	<h3>EXPRESSION OR IMAGINATION?</h3>
+        <p class="text-muted text-a-font text-left">My work is where the right brain and left brain come together. Understanding the logic behind the science of our world allows me to explore the limits of human creativity.</p>
+	h3>ENGINEERED WITH LOVE</h3>
+        <p class="text-muted text-a-font text-left">Isn't it love that makes you - er, i mean us - human?</p>
+Portfolio Section
+
+Contact Me Section
+	<p>Ready to start your next project with me? That's great! Contact me through your preferred method below and I will respond as soon as possible!</p>
