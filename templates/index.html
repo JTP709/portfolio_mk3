@@ -98,7 +98,10 @@
 
 			{% for i in projects %}
 				<div class="project">
-					<img onclick="modalOpen({{i.id}})" id="project_{{i.id}}" src="{{ i.thumb_img }}">
+					<div class="overlay" onclick="modalOpen({{i.id}})">
+						<h2>{{i.title}}</h2>
+					</div>
+					<img class="project_thumb" id="project_{{i.id}}" src="{{ i.thumb_img }}">
 				</div>
 			{% endfor %}
 
@@ -110,7 +113,18 @@
 			<!-- Modal content -->
 			<div class="modal-content">
 				<span onclick="modalClose()" class="close">&times;</span>
-				<img class="modal_img" src="{{ i.modal_img }}">
+				<div class="project_img_container">
+
+					<img class="modal_img desktop_img" src="{{ i.desktop_img }}">
+					<img class="macbook_img" src="{{ url_for('static', filename='img/macbookpro.png') }}">
+
+					<img class="modal_img tablet_img" src="{{ i.tablet_img }}">
+					<img class="ipad_img" src="{{ url_for('static', filename='img/ipad.png') }}">
+
+					<img class="modal_img phone_img" src="{{ i.phone_img }}">
+					<img class="iphone_img" src="{{ url_for('static', filename='img/iphone.png') }}">
+
+				</div>
 				<div class="modal_info">
 					<div class="projectInfo">
 						<h2><b>{{ i.title }}</b></h2>
