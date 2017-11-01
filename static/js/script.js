@@ -1,12 +1,19 @@
+// Variable declaration
+var openModal;
+var logoPos = 'down';
+
+// Page set-up; hides certain elements
 $('.page').hide();
 $('#cornerLogo').hide();
 
+// Loads the particles
 window.onload = function() {
   Particles.init({
     selector: '.background'
   });
 }
 
+// Functions for logo animation
 function logoUp() {
   $('#logo').animate({
       opacity: '0',
@@ -21,8 +28,20 @@ function logoDown() {
       },'slow');
 }
 
-var logoPos = 'down';
+// Coming-soon links
+$('.coming_soon').hover(
+    function() {
+        var $this = $(this); // caching $(this)
+        $this.data('initialText', $this.text());
+        $this.text("Coming Soon!");
+    },
+    function() {
+        var $this = $(this); // caching $(this)
+        $this.text($this.data('initialText'));
+    }
+);
 
+// Function for page navigation
 function nav(page) {
   if(page === '#logo') {
     $('.page').fadeOut(600);
@@ -42,25 +61,21 @@ function nav(page) {
   }
 }
 
-var openModal;
-
-// When the user clicks on the button, open the modal 
+// Functions to manage modals
 var modalOpen = function(x) {
   // Get the modal
   openModal = document.getElementById('modal_'+x);
   openModal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 var modalClose = function() {
   // Get the modal
   openModal.style.display = "none";
   openModal = null;
 }
 
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == openModal) {
-      openModal.style.display = "none";  
+      openModal.style.display = "none";
     }
 }

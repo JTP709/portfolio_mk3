@@ -23,7 +23,6 @@ a:link:active, a:visited:active{
   color: black;
 }
 a:hover {
-  text-decoration: underline;
   font-weight: bold;
 }
 table {
@@ -195,12 +194,32 @@ button:hover {
 .projectInfo h2 {
   margin-top: 0px;
 }
+.projectInfo p {
+  font-size: 20px;
+}
+.project_table {
+  display: inline-block;
+  vertical-align: top;
+}
 .projectLinks {
   font-size: 20px;
-  width: 115px;
+  width: 100%;
   text-align: center;
   display: inline-block;
 }
+
+.modalBtn {
+  display: inline-block;
+}
+
+.demoBtn {
+  margin-left: 50px;
+}
+
+.gitBtn {
+  margin-left: 0px;
+}
+
 .project_thumb {
   height: 250px;
   width: 330px;
@@ -243,9 +262,10 @@ button:hover {
 }
 
 .project_img_container {
-  height: 500px;
+  height: 480px;
   width: 750px;
   display: inline-block;
+  margin-top: 10px;
 }
 
 .desktop_img {
@@ -270,8 +290,8 @@ button:hover {
 }
 
 .macbook_img {
-  height: 45%;
-  width: 45%;
+  height: 442px;
+  width: 796px;
   position: absolute;
 }
 
@@ -294,19 +314,6 @@ button:hover {
   width: 45%;
   margin-left: 20px;
   vertical-align: top;
-}
-
-.modalBtn {
-  position: absolute;
-  display: inline-block;
-}
-
-.demoBtn {
-  margin-left: 40px;
-}
-
-.gitBtn {
-  margin-left: 260px;
 }
 
 /* The Close Button */

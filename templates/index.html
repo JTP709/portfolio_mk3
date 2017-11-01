@@ -14,8 +14,8 @@
 		<a href="#" onclick="nav('#about')">About Me</a>
 		<a href="#" onclick="nav('#projects')">Projects</a>
 		<a href="#" onclick="nav('#contact')">Contact Me</a>
-		<a href="#">Photography</a>
-		<a href="#">Blog</a>
+		<a class="coming_soon" href="#">Photography</a>
+		<a class="coming_soon" href="#">Blog</a>
 	</nav>
 	<!-- Corner Logo -->
 	<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.jpg') }}" onclick="nav('#logo')">
@@ -129,14 +129,36 @@
 					<div class="projectInfo">
 						<h2><b>{{ i.title }}</b></h2>
 						<p>{{ i.description }}</p>
+						<table class="project_table">
+							<tr>
+								<th><b>Front-End</b></th>
+							</tr>
+							{% for j in i.front_end %}
+								<tr>
+									<td>{{ j }}</td>
+								</tr>
+							{% endfor %}
+						</table>
+						<table class="project_table">
+							<tr>
+								<th><b>Back-End</b></th>
+							</tr>
+							{% for k in i.back_end %}
+								<tr>
+									<td>{{ k }}</td>
+								</tr>
+							{% endfor %}
+						</table>
 					</div>
 					<div class="projectLinks">
-						<a class="modalBtn demoBtn" href="{{ i.demo }}">
-							<button>Demo</button>
-						</a>
 						<a class="modalBtn gitBtn" href="{{ i.github }}">
 							<button>Github</button>
 						</a>
+						{% if i.demo != None %}
+						<a class="modalBtn demoBtn" href="{{ i.demo }}">
+							<button>Demo</button>
+						</a>
+						{% endif %}
 					</div>
 				</div>
 			</div>
