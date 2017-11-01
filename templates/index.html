@@ -7,6 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
 </head>
 <body>
+	<!-- Font Awesome Icons -->
+	<script src="https://use.fontawesome.com/305964e3ce.js"></script>
 	<!-- NavBar -->
 	<nav>
 		<a href="#" onclick="nav('#about')">About Me</a>
@@ -30,50 +32,62 @@
 				<p>Hello, my name is Jon Prell and I'm a Full-Stack Web Developer.</p>
 				<br>
 				<p>From the landing page to the database, I have the skills to bring any project to life.</p>
+				<br>
+				<table>
+					<tr>
+						<th>Front End</th>
+						<th>Back End</th>
+						<th>More</th>
+					</tr>
+					<tr>
+						<td>JavaScript</td>
+						<td>Python</td>
+						<td>Photoshop</td>
+					</tr>
+					<tr>
+						<td>jQuery</td>
+						<td>Flask</td>
+						<td>AWS</td>
+					</tr>
+					<tr>
+						<td>React</td>
+						<td>PostgreSQL</td>
+						<td>Linux</td>
+					</tr>
+					<tr>
+						<td>Knockout.js</td>
+						<td>SqlAlchemy</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Bootstrap</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
 			</div>
-			<img id="profilePic" src="{{ url_for('static', filename='img/profile.jpg') }}">
-		</div>
-		<table>
-			<tr>
-				<th>Front End</th>
-				<th>Back End</th>
-				<th>More</th>
-			</tr>
-			<tr>
-				<td>JavaScript</td>
-				<td>Python</td>
-				<td>Photoshop</td>
-			</tr>
-			<tr>
-				<td>jQuery</td>
-				<td>Flask</td>
-				<td>AWS</td>
-			</tr>
-			<tr>
-				<td>React</td>
-				<td>PostgreSQL</td>
-				<td>Linux</td>
-			</tr>
-			<tr>
-				<td>Knockout.js</td>
-				<td>SqlAlchemy</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>Bootstrap</td>
-				<td></td>
-				<td></td>
-			</tr>
-		</table>
-		<div id="ext_link_container">
-			<div class="ext_link">
-				
-			</div>
-			<div class="ext_link">
-				
-			</div>
-			<div class="ext_link">
-				
+			<div id="aboutImg">
+				<img id="profilePic" src="{{ url_for('static', filename='img/profile.jpg') }}">
+				<div id="ext_link_container">
+					<div class="ext_link">
+						<a href="https://www.linkedin.com/in/jonathan-prell-335b6b52/" target="_blank">
+							<i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="ext_link">
+						<a href="https://www.github.com/JTP709" target="_blank">
+							<i class="fa fa-3x fa-github" aria-hidden="true"></i>
+						</a>
+					</div>
+					<div class="ext_link">
+						<a href="https://twitter.com/JTP709" target="_blank">
+							<i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div id="aboutResume">
+					<button>Resume</button>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -84,7 +98,7 @@
 
 			{% for i in projects %}
 				<div class="project">
-					<img onclick="modalOpen({{i.id}})" id="project_{{i.id}}" src="{{ i.image }}">
+					<img onclick="modalOpen({{i.id}})" id="project_{{i.id}}" src="{{ i.thumb_img }}">
 				</div>
 			{% endfor %}
 
@@ -96,16 +110,20 @@
 			<!-- Modal content -->
 			<div class="modal-content">
 				<span onclick="modalClose()" class="close">&times;</span>
-				<img src="{{ i.image }}">
-				<div class="projectInfo">
-					<p><b>{{ i.title }}</b></p>
-					<p>{{ i.description }}</p>
-				</div>
-				<div class="projectLinks">
-					<a href="{{ i.demo }}">Demo</a>
-				</div>
-				<div class="projectLinks">
-					<a href="{{ i.github }}">Github</a>
+				<img class="modal_img" src="{{ i.modal_img }}">
+				<div class="modal_info">
+					<div class="projectInfo">
+						<h2><b>{{ i.title }}</b></h2>
+						<p>{{ i.description }}</p>
+					</div>
+					<div class="projectLinks">
+						<a class="modalBtn demoBtn" href="{{ i.demo }}">
+							<button>Demo</button>
+						</a>
+						<a class="modalBtn gitBtn" href="{{ i.github }}">
+							<button>Github</button>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
