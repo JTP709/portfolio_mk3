@@ -34,7 +34,7 @@ th {
 td {
   width: 150px;
 }
-button {
+button, .submit {
   font-size: 30px;
   font-weight: bold;
   height: 60px;
@@ -49,7 +49,13 @@ button {
   font-family: 'Walter Turncoat', cursive;
   border-radius: 5px;
 }
-button:hover {
+.submit {
+  font-size: 20px;
+  height: 40px;
+  width: 80px;
+  border-radius: 3px;
+}
+button:hover, .submit:hover {
   border: 1px solid black;
   color: black;
   background-color: white;
@@ -59,20 +65,11 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  max-height: button {
-  border: none;
-  color: white;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  background-color: #4CAF50; /* Green */
-  cursor: pointer;
 }
-button:hover {
-    background-color: #3e8e41;
-}15px;
-  padding-bottom: 7px;
-  text-align: center;
+
+form h3 {
+  margin-bottom: 5px;
 }
 .background {
   position: absolute;
@@ -117,8 +114,10 @@ button:hover {
 .page h2 {
   margin: 0px 0px 10px 0px;
 }
-#about {
-
+#about, #projects, #contact {
+  overflow: auto;
+  height: 60%;
+  width: 70%;
 }
 .aboutSection {
   height: 207px;
@@ -156,16 +155,14 @@ button:hover {
   width: 100%;
   margin: 15px 0px 0px 90px;
 }
-#projects {
-
-}
 .flex-container {
-  display: flex;
+  display: block;
 }
 .project {
   height: 250px;
   width: 330px;
-  margin-right: 20px;
+  margin: 0px 20px 20px 0px;
+  display: inline-block;
 }
 .overlay {
   height: 252px;
@@ -226,8 +223,13 @@ button:hover {
   border: 1px solid black;
   border-radius: 5px;
 }
-#contact {
-  display: none;
+#emailSender, #emailName {
+  width: 200px;
+}
+#emailContent {
+  width: 500px;
+  height: 150px;
+  text-align: top;
 }
 #footer {
   font-size: 15px;

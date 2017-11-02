@@ -167,6 +167,31 @@
 	<!-- Contact Page -->
 	<div id="contact" class="page">
 		<h2>Contact Me</h2>
+
+		{% with messages = get_flashed_messages() %}
+			{% if messages %}
+				<hr>
+					<div class="flashes flash_msg">
+						{% for message in messages %}
+							{{ message }}
+						{% endfor %}
+					</div>
+				<hr>
+			{% endif %}
+		{% endwith %}
+
+		<form action="#" method = 'post'>
+			<h3>Name</h3>
+			<input id="emailName" type='text' name="name">
+			<h3>Email</h3>
+			<input id="emailSender" type='text' name="sender">
+			<h3>Message</h3>
+			<textarea id="emailContent" name="content"></textarea>
+			<br>
+			<br>
+			<input class="submit" type='submit' value='Submit'>
+		</form>
+
 	</div>
 	<!-- Footer -->
 	<footer>
