@@ -9,92 +9,110 @@
 <body>
 	<!-- Font Awesome Icons -->
 	<script src="https://use.fontawesome.com/305964e3ce.js"></script>
-	<!-- NavBar -->
-	<nav>
-		<a href="#" onclick="nav('#about')">About Me</a>
-		<a href="#" onclick="nav('#projects')">Projects</a>
-		<a href="#" onclick="nav('#contact')">Contact Me</a>
-		<a class="coming_soon" href="#">Photography</a>
-		<a class="coming_soon" href="#">Blog</a>
-	</nav>
-	<!-- Corner Logo -->
-	<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.jpg') }}" onclick="nav('#logo')">
-	<!-- Logo Page -->
-	<div id="logo">
-		<img src="{{ url_for('static', filename='img/logo.jpg') }}">
-		<span id="logoHeader">Jon Prell</span>
-	</div>
-	<!-- About Me Page -->
-	<div id="about" class="page">
-		<h2>About Me</h2>
-		<div id="aboutSection">
-			<div id="aboutDetails">
-				<p>Hello, my name is Jon Prell and I'm a Full-Stack Web Developer.</p>
-				<br>
-				<p>From the landing page to the database, I have the skills to bring any project to life.</p>
-				<br>
-				<table>
-					<tr>
-						<th>Front End</th>
-						<th>Back End</th>
-						<th>More</th>
-					</tr>
-					<tr>
-						<td>JavaScript</td>
-						<td>Python</td>
-						<td>Photoshop</td>
-					</tr>
-					<tr>
-						<td>jQuery</td>
-						<td>Flask</td>
-						<td>AWS</td>
-					</tr>
-					<tr>
-						<td>React</td>
-						<td>PostgreSQL</td>
-						<td>Linux</td>
-					</tr>
-					<tr>
-						<td>Knockout.js</td>
-						<td>SqlAlchemy</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>Bootstrap</td>
-						<td></td>
-						<td></td>
-					</tr>
-				</table>
+	<div id="main_container">
+		<!-- NavBar -->
+		<nav>
+			<a href="#" onclick="nav('#about')">About Me</a>
+			<a href="#" onclick="nav('#projects')">Projects</a>
+			<a href="#" onclick="nav('#contact')">Contact Me</a>
+			<a class="coming_soon" href="#">Photography</a>
+			<a class="coming_soon" href="#">Blog</a>
+		</nav>
+		<!-- Mobile Nav -->
+		<div id="mobile_nav">
+			<div class="navBtn">
+				<button onclick="nav('#about')">About Me</button>
 			</div>
-			<div id="aboutImg">
-				<img id="profilePic" src="{{ url_for('static', filename='img/profile.jpg') }}">
-				<div id="ext_link_container">
-					<div class="ext_link">
-						<a href="https://www.linkedin.com/in/jonathan-prell-335b6b52/" target="_blank">
-							<i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i>
-						</a>
-					</div>
-					<div class="ext_link">
-						<a href="https://www.github.com/JTP709" target="_blank">
-							<i class="fa fa-3x fa-github" aria-hidden="true"></i>
-						</a>
-					</div>
-					<div class="ext_link">
-						<a href="https://twitter.com/JTP709" target="_blank">
-							<i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i>
-						</a>
-					</div>
+			<div class="navBtn">
+				<button onclick="nav('#projects')">Projects</button>
+			</div>
+			<div class="navBtn">
+				<button onclick="nav('#contact')">Contact Me</button>
+			</div>
+			<div class="navBtn">
+				<button class="coming_soon">Photos</button>
+			</div>
+			<div class="navBtn">
+				<button class="coming_soon">Blog</button>
+			</div>
+		</div>
+		<!-- Corner Logo -->
+		<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.jpg') }}" onclick="nav('#logo')">
+		<!-- Logo Page -->
+		<div id="logo">
+			<img src="{{ url_for('static', filename='img/logo.jpg') }}">
+			<span id="logoHeader">Jon Prell</span>
+		</div>
+		<!-- About Me Page -->
+		<div id="about" class="page">
+			<h2>About Me</h2>
+			<div id="aboutSection">
+				<div id="aboutDetails">
+					<p>Hello, my name is Jon Prell and I'm a Full-Stack Web Developer.</p>
+					<img id="profilePic_phone" src="{{ url_for('static', filename='img/profile.jpg') }}">
+					<p>From the landing page to the database, I have the skills to bring any project to life.</p>
+					<br>
+					<table>
+						<tr>
+							<th>Front End</th>
+							<th>Back End</th>
+							<th>More</th>
+						</tr>
+						<tr>
+							<td>JavaScript</td>
+							<td>Python</td>
+							<td>Photoshop</td>
+						</tr>
+						<tr>
+							<td>jQuery</td>
+							<td>Flask</td>
+							<td>AWS</td>
+						</tr>
+						<tr>
+							<td>React</td>
+							<td>PostgreSQL</td>
+							<td>Linux</td>
+						</tr>
+						<tr>
+							<td>Knockout.js</td>
+							<td>SqlAlchemy</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Bootstrap</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
 				</div>
-				<div id="aboutResume">
-					<button>Resume</button>
+				<div id="aboutImg">
+					<img id="profilePic_dt" src="{{ url_for('static', filename='img/profile.jpg') }}">
+					<div id="ext_link_container">
+						<div class="ext_link">
+							<a href="https://www.linkedin.com/in/jonathan-prell-335b6b52/" target="_blank">
+								<i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="ext_link">
+							<a href="https://www.github.com/JTP709" target="_blank">
+								<i class="fa fa-3x fa-github" aria-hidden="true"></i>
+							</a>
+						</div>
+						<div class="ext_link">
+							<a href="https://twitter.com/JTP709" target="_blank">
+								<i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div id="aboutResume">
+						<button>Resume</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- Projects Page -->
-	<div id="projects" class="page">
-		<h2>Projects</h2>
-		<div class="flex-container">
+		<!-- Projects Page -->
+		<div id="projects" class="page">
+			<h2>Projects</h2>
 
 			{% for i in projects %}
 				<div class="project">
@@ -106,97 +124,97 @@
 			{% endfor %}
 
 		</div>
-	</div>
-	{% for i in projects %}
-		<!-- The Modal -->
-		<div id="modal_{{i.id}}" class="modal">
-			<!-- Modal content -->
-			<div class="modal-content">
-				<span onclick="modalClose()" class="close">&times;</span>
-				<div class="project_img_container">
+		{% for i in projects %}
+			<!-- The Modal -->
+			<div id="modal_{{i.id}}" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span onclick="modalClose()" class="close">&times;</span>
+					<div class="project_img_container">
 
-					<img class="modal_img desktop_img" src="{{ i.desktop_img }}">
-					<img class="macbook_img" src="{{ url_for('static', filename='img/macbookpro.png') }}">
+						<img class="modal_img desktop_img" src="{{ i.desktop_img }}">
+						<img class="macbook_img" src="{{ url_for('static', filename='img/macbookpro.png') }}">
 
-					<img class="modal_img tablet_img" src="{{ i.tablet_img }}">
-					<img class="ipad_img" src="{{ url_for('static', filename='img/ipad.png') }}">
+						<img class="modal_img tablet_img" src="{{ i.tablet_img }}">
+						<img class="ipad_img" src="{{ url_for('static', filename='img/ipad.png') }}">
 
-					<img class="modal_img phone_img" src="{{ i.phone_img }}">
-					<img class="iphone_img" src="{{ url_for('static', filename='img/iphone.png') }}">
+						<img class="modal_img phone_img" src="{{ i.phone_img }}">
+						<img class="iphone_img" src="{{ url_for('static', filename='img/iphone.png') }}">
 
-				</div>
-				<div class="modal_info">
-					<div class="projectInfo">
-						<h2><b>{{ i.title }}</b></h2>
-						<p>{{ i.description }}</p>
-						<table class="project_table">
-							<tr>
-								<th><b>Front-End</b></th>
-							</tr>
-							{% for j in i.front_end %}
-								<tr>
-									<td>{{ j }}</td>
-								</tr>
-							{% endfor %}
-						</table>
-						<table class="project_table">
-							<tr>
-								<th><b>Back-End</b></th>
-							</tr>
-							{% for k in i.back_end %}
-								<tr>
-									<td>{{ k }}</td>
-								</tr>
-							{% endfor %}
-						</table>
 					</div>
-					<div class="projectLinks">
-						<a class="modalBtn gitBtn" href="{{ i.github }}">
-							<button>Github</button>
-						</a>
-						{% if i.demo != None %}
-						<a class="modalBtn demoBtn" href="{{ i.demo }}">
-							<button>Demo</button>
-						</a>
-						{% endif %}
+					<div class="modal_info">
+						<div class="projectInfo">
+							<h2><b>{{ i.title }}</b></h2>
+							<p>{{ i.description }}</p>
+							<table class="project_table">
+								<tr>
+									<th><b>Front-End</b></th>
+								</tr>
+								{% for j in i.front_end %}
+									<tr>
+										<td>{{ j }}</td>
+									</tr>
+								{% endfor %}
+							</table>
+							<table class="project_table">
+								<tr>
+									<th><b>Back-End</b></th>
+								</tr>
+								{% for k in i.back_end %}
+									<tr>
+										<td>{{ k }}</td>
+									</tr>
+								{% endfor %}
+							</table>
+						</div>
+						<div class="projectLinks">
+							<a class="modalBtn gitBtn" href="{{ i.github }}">
+								<button>Github</button>
+							</a>
+							{% if i.demo != None %}
+							<a class="modalBtn demoBtn" href="{{ i.demo }}">
+								<button>Demo</button>
+							</a>
+							{% endif %}
+						</div>
 					</div>
 				</div>
 			</div>
+		{% endfor %}
+		<!-- Contact Page -->
+		<div id="contact" class="page">
+			<h2>Contact Me</h2>
+
+			{% with messages = get_flashed_messages() %}
+				{% if messages %}
+					<hr>
+						<div class="flashes flash_msg">
+							{% for message in messages %}
+								{{ message }}
+							{% endfor %}
+						</div>
+					<hr>
+				{% endif %}
+			{% endwith %}
+
+			<form action="#" method = 'post'>
+				<h3>Name</h3>
+				<input id="emailName" type='text' name="name">
+				<h3>Email</h3>
+				<input id="emailSender" type='text' name="sender">
+				<h3>Message</h3>
+				<textarea id="emailContent" name="content"></textarea>
+				<br>
+				<br>
+				<input class="submit" type='submit' value='Submit'>
+			</form>
+
 		</div>
-	{% endfor %}
-	<!-- Contact Page -->
-	<div id="contact" class="page">
-		<h2>Contact Me</h2>
-
-		{% with messages = get_flashed_messages() %}
-			{% if messages %}
-				<hr>
-					<div class="flashes flash_msg">
-						{% for message in messages %}
-							{{ message }}
-						{% endfor %}
-					</div>
-				<hr>
-			{% endif %}
-		{% endwith %}
-
-		<form action="#" method = 'post'>
-			<h3>Name</h3>
-			<input id="emailName" type='text' name="name">
-			<h3>Email</h3>
-			<input id="emailSender" type='text' name="sender">
-			<h3>Message</h3>
-			<textarea id="emailContent" name="content"></textarea>
-			<br>
-			<br>
-			<input class="submit" type='submit' value='Submit'>
-		</form>
-
+		<!-- Footer -->
+		<footer>
+			<span id="footer">Made by Me &copy; 2017</span>
+		</footer>
 	</div>
-	<!-- Footer -->
-	<footer>
-		<span id="footer">Made by Me &copy; 2017</span>
-	</footer>
 	<!-- Canvas -->
 	<canvas class="background"></canvas>
 	<!-- JavaScript -->

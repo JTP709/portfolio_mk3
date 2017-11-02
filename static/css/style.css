@@ -71,6 +71,24 @@ footer {
 form h3 {
   margin-bottom: 5px;
 }
+#main_container {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (min-width: 1921px) {
+  #main_container {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 10em;
+    width: 1920px;
+  }
+}
+#mobile_nav {
+  display: none;
+}
 .background {
   position: absolute;
   display: block;
@@ -117,7 +135,7 @@ form h3 {
 #about, #projects, #contact {
   overflow: auto;
   height: 60%;
-  width: 70%;
+  width: 65%;
 }
 .aboutSection {
   height: 207px;
@@ -133,10 +151,14 @@ form h3 {
   vertical-align: top;
   max-width: 300px;
 }
-#profilePic {
+#profilePic_dt {
   max-width: 300px;
   vertical-align: top;
-  border-radius: 5px
+  border-radius: 5px;
+}
+
+#profilePic_phone {
+  display: none;
 }
 #ext_link_container {
   width: 100%;
@@ -154,9 +176,6 @@ form h3 {
   display: inline-block;
   width: 100%;
   margin: 15px 0px 0px 90px;
-}
-.flex-container {
-  display: block;
 }
 .project {
   height: 250px;
@@ -332,4 +351,137 @@ form h3 {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+  nav {
+    display: none;
+  }
+  #mobile_nav {
+    display: block;
+    position: fixed;
+    width: 800px;
+    left: 50%;
+    margin-left: -370px;
+  }
+  .navBtn {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+  }
+  .navBtn button {
+    position: absolute;
+    height: 120px;
+    width: 140px;
+    line-height: 60px;
+  }
+  #logo {
+    text-align: center;
+  }
+  #logoHeader {
+    font-size: 100px;
+  }
+  #logo, #about, #contact, #projects {
+    left: 0;
+    margin: 0px 20px 0px 20px;
+    width: 94%;
+    font-size: 40px;
+  }
+  .page {
+    top: 0;
+  }
+  #about, #contact, #projects {
+    margin-top: 200px;
+    height: calc(100% - 230px);
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 10em;
+    width: 90%;
+  }
+  #cornerLogo {
+    display: none;
+  }
+  #profilePic_phone {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #profilePic_dt {
+    display: none;
+  }
+  #aboutImg {
+    display: block;
+    max-width: 100%;
+  }
+  #aboutDetails {
+    max-width: 100%;
+  }
+  #aboutDetails p, table {
+    font-size: 40px;
+  }
+  #aboutDetails td {
+    padding-right: 30px;
+  }
+  #ext_link_container {
+    width: auto;
+    height: 130px;
+    margin-top: 20px;
+  }
+  .ext_link {
+    width: 294px;
+    height: auto;
+    text-align: center;
+  }
+  .ext_link i {
+    margin: 0px 0px 0px 0px;
+  }
+  #aboutResume {
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+  }
+  #aboutResume button, .modalBtn button {
+    height: 90px;
+    width: 200px;
+    font-size: 45px;
+  }
+  .project, .overlay, .project_thumb {
+    height: 504px;
+    width: 664px;
+    border-radius: 10px;
+  }
+  .project_img_container {
+    margin-top: 30px;
+  }
+  .modal-content {
+    height: 80%;
+    min-height: 1350px;
+  }
+  .modal_info {
+    width: 90%;
+  }
+  .projectInfo {
+    height: auto;
+  }
+  .projectInfo h2 {
+    font-size: 40px;
+  }
+  .projectInfo p {
+    font-size: 30px;
+  }
+  .project_table {
+    font-size: 30px;
+  }
+  .projectLinks {
+    margin-top: 30px;
+  }
+  .close {
+    font-size: 90px;
+    margin-top: -30px;
+  }
 }

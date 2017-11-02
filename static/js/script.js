@@ -43,9 +43,12 @@ $('.coming_soon').hover(
 
 // Function for page navigation
 function nav(page) {
+  var width = $(window).width();
   if(page === '#logo') {
     $('.page').fadeOut(600);
-    $('#cornerLogo').fadeOut(600);
+    if (width > 1200) {
+      $('#cornerLogo').fadeOut(600);
+    }
     if (logoPos ==='up') {
       logoPos = 'down';
       logoDown();
@@ -55,7 +58,9 @@ function nav(page) {
       logoPos = 'up';
       logoUp();
     }
-    $('#cornerLogo').fadeIn(600);
+    if (width > 1200) {
+      $('#cornerLogo').fadeIn(600);
+    }
     $('.page').fadeOut(600);
     $(page).fadeToggle(600);
   }
