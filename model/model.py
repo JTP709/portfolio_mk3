@@ -20,7 +20,7 @@ projects = [
 		'desktop_img': '/static/img/EEM_desktop.gif',
 		'tablet_img': '/static/img/EEM_tablet.gif',
 		'phone_img': '/static/img/EEM_phone.gif',
-		'github': 'https://github.com/JTP709/Udacity_EMC',
+		'github': 'https://github.com/JTP709/Emergency-Event-Manager',
 		'demo': None,
 		'front_end': ['HTML5','CSS3','JavaScript'],
 		'back_end': ['Knockout.js']
