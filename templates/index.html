@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='img/logo.png') }}"/>
 </head>
 <body>
 	<!-- Font Awesome Icons -->
@@ -37,10 +38,10 @@
 			</div>
 		</div>
 		<!-- Corner Logo -->
-		<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.jpg') }}" onclick="nav('#logo')">
+		<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.png') }}" onclick="nav('#logo')">
 		<!-- Logo Page -->
 		<div id="logo">
-			<img src="{{ url_for('static', filename='img/logo.jpg') }}">
+			<img src="{{ url_for('static', filename='img/logo.png') }}">
 			<span id="logoHeader">Jon Prell</span>
 		</div>
 		<!-- About Me Page -->
