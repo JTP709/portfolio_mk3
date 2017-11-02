@@ -126,9 +126,8 @@ form h3 {
 .page {
   position: fixed;
   top: 45%;
-  left: 50%;
+  right: 0;
   margin-top: -85px;
-  margin-left: -230.5px;
   height: 125px;
   display: none;
 }
@@ -142,7 +141,7 @@ form h3 {
 #about, #projects, #contact {
   overflow: auto;
   height: 60%;
-  width: 65%;
+  width: 70%;
 }
 .aboutSection {
   height: 207px;
@@ -406,7 +405,8 @@ form h3 {
     margin-right: auto;
     margin-left: auto;
     min-height: 10em;
-    width: 90%;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
   }
   #cornerLogo {
     display: none;
@@ -429,27 +429,33 @@ form h3 {
   #aboutDetails {
     max-width: 100%;
   }
+  #aboutDetails table{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #aboutDetails p, table {
     font-size: 40px;
   }
   #aboutDetails td {
-    padding-right: 30px;
+    padding-right: 50px;
   }
   #ext_link_container {
-    width: auto;
+    width: 100%;
     height: 130px;
     margin-top: 20px;
   }
   .ext_link {
-    width: 294px;
+    width: 341px;
     height: auto;
     text-align: center;
   }
   .ext_link i {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -20px;
   }
   #aboutResume {
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px -20px;
     text-align: center;
   }
   #aboutResume button, .modalBtn button {
@@ -461,6 +467,13 @@ form h3 {
     height: 504px;
     width: 664px;
     border-radius: 10px;
+  }
+  .project {
+    display: block;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
   .project_img_container {
     margin-top: 30px;
