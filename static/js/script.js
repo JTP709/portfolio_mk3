@@ -44,6 +44,7 @@ $('.coming_soon').hover(
 // Function for page navigation
 function nav(page) {
   var width = $(window).width();
+  $('#flash_msg').fadeOut(600);
   if(page === '#logo') {
     $('.page').fadeOut(600);
     if (width > 1200) {

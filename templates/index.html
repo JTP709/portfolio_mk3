@@ -40,6 +40,17 @@
 		<!-- Corner Logo -->
 		<img id="cornerLogo" src="{{ url_for('static', filename='img/logo.png') }}" onclick="nav('#logo')">
 		<!-- Logo Page -->
+
+		{% with messages = get_flashed_messages() %}
+				{% if messages %}
+					<div id="flash_msg">
+						{% for message in messages %}
+							<span>{{ message }}</span>
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endwith %}
+
 		<div id="logo">
 			<img src="{{ url_for('static', filename='img/logo.png') }}">
 			<span id="logoHeader">Jon Prell</span>
@@ -185,19 +196,6 @@
 		<!-- Contact Page -->
 		<div id="contact" class="page">
 			<h2>Contact Me</h2>
-
-			{% with messages = get_flashed_messages() %}
-				{% if messages %}
-					<hr>
-						<div class="flashes flash_msg">
-							{% for message in messages %}
-								{{ message }}
-							{% endfor %}
-						</div>
-					<hr>
-				{% endif %}
-			{% endwith %}
-
 			<form action="#" method = 'post'>
 				<h3>Name</h3>
 				<input id="emailName" type='text' name="name">

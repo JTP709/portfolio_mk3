@@ -97,8 +97,15 @@ form h3 {
   z-index: -1;
 }
 #cornerLogo {
-  margin: 20px 0px 0px 20px;
+  margin: 20px 0px 0px 30px;
   cursor: pointer;
+}
+#flash_msg {
+  position: fixed;
+  font-size: 20px;
+  top: 30%;
+  left: 50%;
+  margin-left: -130.5px;
 }
 #logo {
   position: fixed;

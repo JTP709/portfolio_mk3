@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask import make_response, flash, session
 from flask_mail import Mail, Message
 from model.model import projects
-from model.email_config import email_user, email_pass
+from model.email_config import email_user, email_pass, email_recip
 
 app = Flask(__name__)
 
@@ -20,17 +20,23 @@ mail = Mail(app)
 
 @app.route("/", methods=['GET','POST'])
 def main():
-	if request.method == 'POST':
-		content = request.form.get('content')
-		sender = request.form.get('sender')
-		msg = Message(content,
-					  sender = sender,
-					  recipients=["JTP709@gmail.com"])
-		mail.send(msg)
-		flash("Thanks for contacting me, I'll be in touch!")
-	else:
-		return render_template('index.html',
-								projects=projects)
+    if request.method == 'POST':
+        content = request.form.get('content')
+        name = request.form.get('name')
+        sender = request.form.get('sender')
+        html = "<h2>FROM: " + name + "</h2>" + \
+               "<h2>EMAIL: " + sender + "</h2>" + \
+               "<p style='font-size: 15px'>" + content + "</p>"
+        msg = Message("PORTFOLIO CONTACT",
+                      html = html,
+                      sender = (name, sender),
+                      recipients=[email_recip])
+        mail.send(msg)
+        flash("Thanks for contacting me, I'll be in touch!")
+        return redirect(url_for("main"))
+    else:
+        return render_template('index.html',
+                               projects=projects)
 
 if __name__ == '__main__':
     app.secret_key = 'super secret key'
