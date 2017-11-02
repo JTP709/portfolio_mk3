@@ -2,8 +2,20 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask import make_response, flash, session
 from flask_mail import Mail, Message
 from model.model import projects
+from model.email_config import email_user, email_pass
 
 app = Flask(__name__)
+
+app.config.update(dict(
+    DEBUG = True,
+    MAIL_SERVER = 'smtp.gmail.com',
+    MAIL_PORT = 587,
+    MAIL_USE_TLS = True,
+    MAIL_USE_SSL = False,
+    MAIL_USERNAME = email_user,
+    MAIL_PASSWORD = email_pass,
+))
+
 mail = Mail(app)
 
 @app.route("/", methods=['GET','POST'])
