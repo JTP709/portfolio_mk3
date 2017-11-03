@@ -79,15 +79,11 @@ form h3 {
   right: 0;
   bottom: 0;
 }
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1521px) {
   #main_container {
     position: fixed;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
     min-height: 10em;
-    width: 1920px;
+    width: 1520px;
   }
 }
 #mobile_nav {
