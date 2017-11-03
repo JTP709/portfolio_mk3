@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask import make_response, flash, session
 from flask_mail import Mail, Message
-from model.model import projects
-from model.email_config import email_user, email_pass, email_recip, super_secret_key
+from var.www.portfolio_mk3.portfolio_mk3.model.model import projects
+from var.www.portfolio_mk3.portfolio_mk3.model.email_config import email_user, email_pass, email_recip, super_secret_key
 
 app = Flask(__name__)
 
