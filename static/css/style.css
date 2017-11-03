@@ -74,6 +74,10 @@ form h3 {
 #main_container {
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 @media screen and (min-width: 1921px) {
   #main_container {
@@ -157,6 +161,14 @@ form h3 {
   vertical-align: top;
   max-width: 300px;
 }
+#aboutTable {
+}
+#aboutTable table {
+  min-width: 32%;
+  max-width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
 #profilePic_dt {
   max-width: 300px;
   vertical-align: top;
@@ -225,9 +237,8 @@ form h3 {
 }
 .projectLinks {
   font-size: 20px;
-  width: 100%;
   text-align: center;
-  display: inline-block;
+  display: block;
 }
 
 .modalBtn {
@@ -339,7 +350,7 @@ form h3 {
 
 .modal_info {
   display: inline-block;
-  width: 45%;
+  max-width: 45%;
   margin-left: 20px;
   vertical-align: top;
 }
@@ -359,20 +370,35 @@ form h3 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 1793px) {
+  .project_img_container {
+    display: block;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .modal_info {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 1200px){
   nav {
     display: none;
   }
   #mobile_nav {
     display: block;
+    /*
     position: fixed;
+    */
     width: 800px;
-    left: 50%;
-    margin-left: -370px;
+    height: auto;
+    margin: 10px auto 10px auto;
   }
   .navBtn {
     display: inline-block;
     width: 140px;
+    height: 120px;
     margin-right: 10px;
   }
   .navBtn button {
@@ -397,16 +423,13 @@ form h3 {
     top: 0;
   }
   #about, #contact, #projects {
-    margin-top: 200px;
-    height: calc(100% - 230px);
-    position: fixed;
     right: 0;
     left: 0;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 145px 10px 0px 10px;
     min-height: 10em;
+    height: calc(100% - 167px);
     width: 100%;
-    padding: 0px 20px 0px 20px;
+    position: fixed;
   }
   #cornerLogo {
     display: none;
@@ -429,17 +452,12 @@ form h3 {
   #aboutDetails {
     max-width: 100%;
   }
-  #aboutDetails table{
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+  #aboutTable table{
+    margin-bottom: 20px;
+    font-size: 30px;
   }
-  #aboutDetails p {
-    font-size: 40px;
-  }
-  #aboutDetails table {
-    font-size: 20px;
+  #aboutDetails p{
+    font-size: 30px;
   }
   #aboutDetails td {
     padding-right: 50px;
@@ -450,7 +468,7 @@ form h3 {
     margin-top: 20px;
   }
   .ext_link {
-    width: 341px;
+    width: 33%;
     height: auto;
     text-align: center;
   }
@@ -511,21 +529,24 @@ form h3 {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .tablet_img, .phone_img, .macbook_img, .ipad_img, .iphone_img {
     display: none;
   }
   .desktop_img {
     right: 0;
     left: 0;
-    margin: 20px auto 0px auto;
+    margin: 0px auto 0px auto;
     border-radius: 5px;
     border: 1px solid black;
-    width: 80%;
+    width: 95%;
     height: auto;
+    position: static;
   }
   .project_img_container {
-    height: 400px;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
   }
   #logoHeader {
     font-size: 61px;
@@ -534,16 +555,18 @@ form h3 {
     width: 80%;
     height: auto;
   }
-  .project, .overlay, .project_thumb {
+  .project, .project_thumb {
     height: auto;
     width: 90%;
   }
-  #about, #contact, #projects {
-    margin-top: 100px;
-    height: calc(100% - 130px);
+  .project_thumb {
+    cursor: pointer;
   }
-  #aboutDetails table {
-    font-size: 20px;
+  .overlay {
+    display: none;
+   }
+  .project_table {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -557,8 +580,11 @@ form h3 {
     font-size: 15px;
   }
   #mobile_nav {
-    width: 460px;
-    left: 50%;
-    margin-left: -210px;
+    width: 425px;
+  }
+   #about, #contact, #projects {
+    margin: 65px 10px 0px 10px;
+    min-height: 10em;
+    height: calc(100% - 87px);
   }
 }

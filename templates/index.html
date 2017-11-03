@@ -64,38 +64,65 @@
 					<img id="profilePic_phone" src="{{ url_for('static', filename='img/profile.jpg') }}">
 					<p>From the landing page to the database, I have the skills to bring any project to life.</p>
 					<br>
-					<table>
-						<tr>
-							<th>Front End</th>
-							<th>Back End</th>
-							<th>More</th>
-						</tr>
-						<tr>
-							<td>JavaScript</td>
-							<td>Python</td>
-							<td>Photoshop</td>
-						</tr>
-						<tr>
-							<td>jQuery</td>
-							<td>Flask</td>
-							<td>AWS</td>
-						</tr>
-						<tr>
-							<td>React</td>
-							<td>PostgreSQL</td>
-							<td>Linux</td>
-						</tr>
-						<tr>
-							<td>Knockout.js</td>
-							<td>SqlAlchemy</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>Bootstrap</td>
-							<td></td>
-							<td></td>
-						</tr>
-					</table>
+					<div id="aboutTable">
+						<table>
+							<tr>
+								<th>Front End</th>
+							</tr>
+							<tr>
+								<td>JavaScript</td>
+							</tr>
+							<tr>
+								<td>jQuery</td>
+							</tr>
+							<tr>
+								<td>React</td>
+							</tr>
+							<tr>
+								<td>Knockout.js</td>
+							</tr>
+							<tr>
+								<td>Bootstrap</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th>Back End</th>
+							</tr>
+							<tr>
+								<td>Python</td>
+							</tr>
+
+							<tr>
+								<td>Flask</td>
+							</tr>
+
+							<tr>
+								<td>PostgreSQL</td>
+							</tr>
+
+							<tr>
+								<td>SQLAlchemy</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th>More</th>
+							</tr>
+
+							<tr>
+								<td>Photoshop</td>
+							</tr>
+
+							<tr>
+								<td>AWS</td>
+							</tr>
+
+							<tr>
+								<td>Linux</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 				<div id="aboutImg">
 					<img id="profilePic_dt" src="{{ url_for('static', filename='img/profile.jpg') }}">
@@ -131,7 +158,7 @@
 					<div class="overlay" onclick="modalOpen({{i.id}})">
 						<h2>{{i.title}}</h2>
 					</div>
-					<img class="project_thumb" id="project_{{i.id}}" src="{{ i.thumb_img }}">
+					<img  onclick="modalOpen({{i.id}})" class="project_thumb" id="project_{{i.id}}" src="{{ i.thumb_img }}">
 				</div>
 			{% endfor %}
 
