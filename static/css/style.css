@@ -128,7 +128,7 @@ form h3 {
   vertical-align: top;
 }
 .page {
-  position: fixed;
+  position: absolute;
   top: 45%;
   right: 0;
   margin-top: -85px;
@@ -143,9 +143,9 @@ form h3 {
   margin: 0px 0px 10px 0px;
 }
 #about, #projects, #contact {
-  overflow: auto;
   height: 60%;
-  width: 70%;
+  max-width: 1000;
+  min-width: 840px;
 }
 .aboutSection {
   height: 207px;
@@ -378,7 +378,8 @@ form h3 {
     margin: auto;
   }
   .modal_info {
-    max-width: 100%;
+    max-width: 96%;
+    width: 96%;
   }
 }
 
@@ -423,6 +424,7 @@ form h3 {
     top: 0;
   }
   #about, #contact, #projects {
+    overflow: auto;
     right: 0;
     left: 0;
     margin: 145px 10px 0px 10px;
