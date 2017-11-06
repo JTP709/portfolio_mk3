@@ -3,12 +3,8 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask import make_response, flash, session
 from flask_mail import Mail, Message
 
-import sys
-print(sys.path)
-
 # Import local data
-from .model.email_config import email_user, email_pass, email_recip, super_secret_key
-from .model.model import projects
+from portfolio_mk3.model.email_config import email_user, email_pass, email_recip, super_secret_key
 
 app = Flask(__name__)
 
